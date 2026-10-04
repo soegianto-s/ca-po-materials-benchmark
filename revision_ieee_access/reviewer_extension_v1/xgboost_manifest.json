@@ -1,0 +1,8 @@
+{
+  "xgboost": "3.4.1",
+  "script_sha256": "47f7701fcfd80bf5327f255d4a30860bdae4a3af10241964eedd8d14c1506068",
+  "selection": "same composite weighted BCE + standardized gap/energy MSE on inner validation; candidate selected by average over seeds per outer split",
+  "training_class_weight": "unweighted",
+  "feature_scaling": "none",
+  "n_jobs": 1
+}

@@ -1,0 +1,87 @@
+{
+  "excluded": [
+    "mp-1214043",
+    "mp-1214415",
+    "mp-677016"
+  ],
+  "records": 508,
+  "compositions": 418,
+  "stable": 94,
+  "splits": {
+    "partition42_fold1": {
+      "fit": 318,
+      "validation": 83,
+      "test": 107
+    },
+    "partition42_fold2": {
+      "fit": 325,
+      "validation": 78,
+      "test": 105
+    },
+    "partition42_fold3": {
+      "fit": 324,
+      "validation": 82,
+      "test": 102
+    },
+    "partition42_fold4": {
+      "fit": 328,
+      "validation": 83,
+      "test": 97
+    },
+    "partition42_fold5": {
+      "fit": 326,
+      "validation": 85,
+      "test": 97
+    },
+    "partition2024_fold1": {
+      "fit": 312,
+      "validation": 92,
+      "test": 104
+    },
+    "partition2024_fold2": {
+      "fit": 317,
+      "validation": 92,
+      "test": 99
+    },
+    "partition2024_fold3": {
+      "fit": 320,
+      "validation": 89,
+      "test": 99
+    },
+    "partition2024_fold4": {
+      "fit": 314,
+      "validation": 88,
+      "test": 106
+    },
+    "partition2024_fold5": {
+      "fit": 337,
+      "validation": 71,
+      "test": 100
+    },
+    "partition7_fold1": {
+      "fit": 325,
+      "validation": 85,
+      "test": 98
+    },
+    "partition7_fold2": {
+      "fit": 317,
+      "validation": 83,
+      "test": 108
+    },
+    "partition7_fold3": {
+      "fit": 328,
+      "validation": 82,
+      "test": 98
+    },
+    "partition7_fold4": {
+      "fit": 328,
+      "validation": 83,
+      "test": 97
+    },
+    "partition7_fold5": {
+      "fit": 325,
+      "validation": 76,
+      "test": 107
+    }
+  }
+}

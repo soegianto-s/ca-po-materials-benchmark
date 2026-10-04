@@ -1,0 +1,57 @@
+{
+  "resamples": 10000,
+  "clusters": 421,
+  "materials": 511,
+  "seed": 20261004,
+  "estimand": "Mean of nine OOF metric differences, retaining structure weighting and pairing all predictions within each resampled composition. Conditional on frozen models; no refit or hyperparameter-selection uncertainty.",
+  "contrasts": {
+    "graph_capacity_minus_rf": {
+      "ap": {
+        "difference": 0.007630352943798269,
+        "percentile_95": [
+          -0.062229011482279495,
+          0.06985997138096704
+        ],
+        "percentile_98_75_bonferroni_four_contrasts": [
+          -0.08187077969772925,
+          0.08722449232846548
+        ]
+      },
+      "gap_mae": {
+        "difference": 0.13965093561864106,
+        "percentile_95": [
+          0.06682009512720594,
+          0.21306873175140678
+        ],
+        "percentile_98_75_bonferroni_four_contrasts": [
+          0.04369820261437767,
+          0.23203118276921822
+        ]
+      }
+    },
+    "graph_hybrid_minus_graph_capacity": {
+      "ap": {
+        "difference": -0.06324526962328453,
+        "percentile_95": [
+          -0.116401679366435,
+          -0.008352601599808405
+        ],
+        "percentile_98_75_bonferroni_four_contrasts": [
+          -0.12891536770635137,
+          0.00791356880924082
+        ]
+      },
+      "gap_mae": {
+        "difference": 0.04633396505867249,
+        "percentile_95": [
+          -0.011538198507929807,
+          0.10464863343835659
+        ],
+        "percentile_98_75_bonferroni_four_contrasts": [
+          -0.02705049331397839,
+          0.12153868758970125
+        ]
+      }
+    }
+  }
+}

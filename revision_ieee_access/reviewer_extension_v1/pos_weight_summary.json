@@ -1,0 +1,791 @@
+{
+  "aggregate": {
+    "graph_baseline": {
+      "raw": {
+        "brier": 0.2284248111450483,
+        "log_loss": 0.6469857259935267,
+        "ap": 0.31958799384587333
+      },
+      "offset": {
+        "brier": 0.14554056666904158,
+        "log_loss": 0.4603959738658884,
+        "ap": 0.3188663565009956
+      },
+      "platt": {
+        "brier": 0.14532794083513276,
+        "log_loss": 0.4606334140320084,
+        "ap": 0.3245571060259863
+      }
+    },
+    "graph_physics": {
+      "raw": {
+        "brier": 0.2245497905774895,
+        "log_loss": 0.6375637730886383,
+        "ap": 0.3274391188475507
+      },
+      "offset": {
+        "brier": 0.14481477573990928,
+        "log_loss": 0.45839533777278785,
+        "ap": 0.32643213223439266
+      },
+      "platt": {
+        "brier": 0.1448517976070105,
+        "log_loss": 0.45926348728512895,
+        "ap": 0.32570540341733817
+      }
+    },
+    "graph_hybrid": {
+      "raw": {
+        "brier": 0.23512599868292497,
+        "log_loss": 0.672074680493711,
+        "ap": 0.305987209158187
+      },
+      "offset": {
+        "brier": 0.150155202845377,
+        "log_loss": 0.48920448604878775,
+        "ap": 0.3047498809037324
+      },
+      "platt": {
+        "brier": 0.1483339427668523,
+        "log_loss": 0.47265588276667564,
+        "ap": 0.2955942204240509
+      }
+    }
+  },
+  "rows": [
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.21927825745856605,
+      "log_loss": 0.6234349060222398,
+      "ap": 0.37242456428200643
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.1379993713420885,
+      "log_loss": 0.43812308385039583,
+      "ap": 0.3728267873076732
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.1388117925451041,
+      "log_loss": 0.43872150829644374,
+      "ap": 0.3595868898390456
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.21724283523456497,
+      "log_loss": 0.6147860056605023,
+      "ap": 0.34075627035166517
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.14392407480952443,
+      "log_loss": 0.45404938300813735,
+      "ap": 0.3399616942903671
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14561795994033186,
+      "log_loss": 0.45817173333530864,
+      "ap": 0.31640940605395473
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.24037338646502232,
+      "log_loss": 0.6796953665253764,
+      "ap": 0.29944905013733114
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.14966666026815104,
+      "log_loss": 0.47520099784543124,
+      "ap": 0.298736254157541
+    },
+    {
+      "partition": 42,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.1472055942494697,
+      "log_loss": 0.4671144850472634,
+      "ap": 0.2973516212267219
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.23657096036140304,
+      "log_loss": 0.6636546251550073,
+      "ap": 0.267831156221907
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.14940538094599068,
+      "log_loss": 0.4718791970525612,
+      "ap": 0.271266988531901
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.15078472328180204,
+      "log_loss": 0.475443573085024,
+      "ap": 0.24559594200999624
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.23240298279872518,
+      "log_loss": 0.6559334413092776,
+      "ap": 0.2951004379159988
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.14679470827668514,
+      "log_loss": 0.4625177863240989,
+      "ap": 0.2919235057274717
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.1477949916533683,
+      "log_loss": 0.4664757227036103,
+      "ap": 0.28830099627472994
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.23580520364351107,
+      "log_loss": 0.6963790498821345,
+      "ap": 0.28208468985964696
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.15769340319746428,
+      "log_loss": 0.5242662420295843,
+      "ap": 0.2830538141241925
+    },
+    {
+      "partition": 42,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.14928573013562255,
+      "log_loss": 0.4767900684192904,
+      "ap": 0.2843136937190523
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.23082745106623093,
+      "log_loss": 0.6512652497080539,
+      "ap": 0.3067436516109614
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.14527095699498851,
+      "log_loss": 0.4604858426621679,
+      "ap": 0.3064508189358569
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.14564584923283702,
+      "log_loss": 0.4608800720817792,
+      "ap": 0.30840385823623384
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.22767711871873586,
+      "log_loss": 0.6450738362449049,
+      "ap": 0.31458346534846765
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.14355638972768966,
+      "log_loss": 0.44946883051875397,
+      "ap": 0.30954157100125834
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.1448220336312082,
+      "log_loss": 0.45524703923834664,
+      "ap": 0.3006022934797964
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.24343329970788205,
+      "log_loss": 0.6940413879838522,
+      "ap": 0.3172270801983656
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.14918734230805306,
+      "log_loss": 0.49029897533281835,
+      "ap": 0.3183505738331922
+    },
+    {
+      "partition": 42,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.1473702008667545,
+      "log_loss": 0.47045859167466403,
+      "ap": 0.29938688937587343
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.22134101954534444,
+      "log_loss": 0.6276430638756637,
+      "ap": 0.3810488178961017
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.1372821609709962,
+      "log_loss": 0.43719839535984656,
+      "ap": 0.38298591458282044
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.13818041584917842,
+      "log_loss": 0.4418502875699298,
+      "ap": 0.39542687160233336
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.23595047423561133,
+      "log_loss": 0.6576260558062265,
+      "ap": 0.3746613781535212
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.1387384360484611,
+      "log_loss": 0.4453661377959502,
+      "ap": 0.3784850867382956
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14079377775241844,
+      "log_loss": 0.4481713579154754,
+      "ap": 0.3758805817321376
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.23385736055699805,
+      "log_loss": 0.6765283610156944,
+      "ap": 0.29965863830692707
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.15229290797910683,
+      "log_loss": 0.4956255778346079,
+      "ap": 0.298114518128111
+    },
+    {
+      "partition": 2024,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.15087628232757433,
+      "log_loss": 0.4760993569823907,
+      "ap": 0.2823284164164465
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.23913824062551856,
+      "log_loss": 0.6693404320318324,
+      "ap": 0.31049430446810755
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.1463678964995446,
+      "log_loss": 0.4673866301619598,
+      "ap": 0.30806024053965647
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.14717185860632642,
+      "log_loss": 0.4677709946332944,
+      "ap": 0.31851153234233437
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.2243731302904051,
+      "log_loss": 0.6342735495862099,
+      "ap": 0.3753189322990069
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.14157548338158085,
+      "log_loss": 0.45076442825747054,
+      "ap": 0.3734366093149664
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14328739428442216,
+      "log_loss": 0.4561824850536326,
+      "ap": 0.3471586869400216
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.2331159778865992,
+      "log_loss": 0.6561796949170816,
+      "ap": 0.3043046028050299
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.14717329126071793,
+      "log_loss": 0.46990429806805534,
+      "ap": 0.30315539117880325
+    },
+    {
+      "partition": 2024,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.14833283733324504,
+      "log_loss": 0.46973516302330837,
+      "ap": 0.2878962834630739
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.224370219413288,
+      "log_loss": 0.6352756095617338,
+      "ap": 0.3487416330001386
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.14232050812603225,
+      "log_loss": 0.4507022107298463,
+      "ap": 0.3482232563608103
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.1422027991153647,
+      "log_loss": 0.4530224638012342,
+      "ap": 0.3735539859991163
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.21167840877319857,
+      "log_loss": 0.6099358739920107,
+      "ap": 0.3597728415646959
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.14057484286075295,
+      "log_loss": 0.4506972604095475,
+      "ap": 0.3616214056847918
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14089423940468207,
+      "log_loss": 0.4496431806233942,
+      "ap": 0.36393314487759226
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.22364862328388704,
+      "log_loss": 0.6369339454500922,
+      "ap": 0.32797769799766296
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.14670507401703264,
+      "log_loss": 0.47777828173513637,
+      "ap": 0.32893220592743333
+    },
+    {
+      "partition": 2024,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.14501868399077678,
+      "log_loss": 0.4615047650365008,
+      "ap": 0.3235505413973731
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.22968404123528563,
+      "log_loss": 0.6516640416309112,
+      "ap": 0.30669387920426006
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.14938546080124585,
+      "log_loss": 0.4686682019870392,
+      "ap": 0.30661498318967984
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.14724403195436866,
+      "log_loss": 0.46560844519420574,
+      "ap": 0.2934119740446725
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.2268708025557869,
+      "log_loss": 0.6484166689857082,
+      "ap": 0.2815058680376525
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.15246940437758102,
+      "log_loss": 0.47910218591796205,
+      "ap": 0.27993911217512607
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14758375296027812,
+      "log_loss": 0.4658473950498083,
+      "ap": 0.2963778291131459
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.23630656546457918,
+      "log_loss": 0.6746790503589647,
+      "ap": 0.3037816332711939
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.15029315164000703,
+      "log_loss": 0.4932480303678426,
+      "ap": 0.2987938024956292
+    },
+    {
+      "partition": 7,
+      "seed": 42,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.14916471191210695,
+      "log_loss": 0.4775466025967305,
+      "ap": 0.29085599737382883
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.23214362030300992,
+      "log_loss": 0.6615690195613292,
+      "ap": 0.279220389414327
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.15209603308265507,
+      "log_loss": 0.47821245097372966,
+      "ap": 0.2795335530424997
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.14924663138781405,
+      "log_loss": 0.47267528345850657,
+      "ap": 0.32774560958586296
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.22104644244062577,
+      "log_loss": 0.632199347481204,
+      "ap": 0.2896768534081984
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.1498099681284497,
+      "log_loss": 0.47315753674586986,
+      "ap": 0.288588704379483
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14883801180411455,
+      "log_loss": 0.4753046765550806,
+      "ap": 0.3054533882414173
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.23578974809568412,
+      "log_loss": 0.6635850385569524,
+      "ap": 0.30703974992632455
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.14817765848457137,
+      "log_loss": 0.47678429956000784,
+      "ap": 0.3064609311356591
+    },
+    {
+      "partition": 7,
+      "seed": 2024,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.149352275678215,
+      "log_loss": 0.47740235169537526,
+      "ap": 0.28532209521809676
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "raw",
+      "brier": 0.2224694902967882,
+      "log_loss": 0.6390245863949693,
+      "ap": 0.3030935485150505
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "offset",
+      "brier": 0.1497373312578328,
+      "log_loss": 0.4709077520154494,
+      "ap": 0.29383466601806224
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_baseline",
+      "mode": "platt",
+      "brier": 0.1486633655433993,
+      "log_loss": 0.4697280981676578,
+      "ap": 0.29877729057428143
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "raw",
+      "brier": 0.22370592014975166,
+      "log_loss": 0.6398291787317016,
+      "ap": 0.3155760225487501
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "offset",
+      "brier": 0.14588967404845862,
+      "log_loss": 0.4604344909773005,
+      "ap": 0.31439150079777395
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_physics",
+      "mode": "platt",
+      "brier": 0.14403401703227098,
+      "log_loss": 0.45832779509150373,
+      "ap": 0.33723230404324767
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "raw",
+      "brier": 0.23380382304216202,
+      "log_loss": 0.6706502297532516,
+      "ap": 0.3123617399212008
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "offset",
+      "brier": 0.15020733645328876,
+      "log_loss": 0.4997336716656054,
+      "ap": 0.30715143715302984
+    },
+    {
+      "partition": 7,
+      "seed": 7,
+      "model": "graph_hybrid",
+      "mode": "platt",
+      "brier": 0.14839916840790596,
+      "log_loss": 0.47725156042455735,
+      "ap": 0.30934244562599167
+    }
+  ],
+  "weight_range": [
+    3.8676470588235294,
+    4.633333333333334
+  ],
+  "interpretation": "Analytic inverse of weighted-BCE population-optimum odds shift, conditional on same trained checkpoints. Does not identify causal weight effects or equal an unweighted retraining. Platt slope and offset also reflect model misspecification and finite-sample adaptation."
+}
