@@ -6,7 +6,7 @@ Scientific code, composition-disjoint splits, input SHA-256 hashes, and aggregat
 The original benchmark uses 511 Materials Project structures, 421 reduced compositions, three partition seeds, five outer folds, and three initialization seeds. Physical validity, accuracy, calibration, and transfer are evaluated separately. This repository does not claim a universally superior hybrid architecture.
 
 ## Current extension
-A fixed post hoc extension adds a small inner-validation graph search, composition-only MLPs, XGBoost, paired composition-cluster bootstrap intervals, and an analytic class-weight logit-offset diagnostic. Training is still in progress unless a completed extension summary explicitly states otherwise. Partial candidate results are not used to select configurations.
+A fixed post hoc extension adds a small inner-validation graph search, composition-only MLPs, XGBoost, paired composition-cluster bootstrap intervals, and an analytic class-weight logit-offset diagnostic. The extension is complete: 90 new graph fits plus 45 cached graph fits, 135 composition MLP fits, and 180 XGBoost candidate groups (each with one classifier and two regressors). Selection uses mean inner-validation objective across three seeds within each outer split. The completion audit verifies frozen input hashes, grouped splits, checkpoint consistency, and selection arithmetic. Mean AP is 0.339 for the searched graph, 0.323 for the MLP and 0.347 for XGBoost; these are descriptive comparisons. See the complete summary and conditional bootstrap report for detailed results.
 
 ## Contents and reproducibility boundary
 - `scripts/`: scientific training, analysis, and focused checks.

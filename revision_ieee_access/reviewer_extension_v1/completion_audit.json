@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": [
+    "frozen input SHA256 hashes",
+    "identical original grouped splits",
+    "no fit/validation/test composition overlap",
+    "511 IDs per split",
+    "all candidate result counts",
+    "neural checkpoint fingerprint and best epoch consistency",
+    "selection equals minimum mean validation objective across seeds"
+  ],
+  "candidate_counts": {
+    "xgb_d4_n500": 45,
+    "xgb_d2_n200": 45,
+    "mlp_w64_d30": 45,
+    "mlp_w64": 45,
+    "xgb_d2_n500": 45,
+    "xgb_d4_n200": 45,
+    "graph_w64_l3": 45,
+    "graph_w64_l2": 45,
+    "mlp_w32": 45
+  },
+  "selection_counts": {
+    "searched_graph": {
+      "graph_baseline": 4,
+      "graph_w64_l2": 5,
+      "graph_w64_l3": 6
+    },
+    "composition_mlp": {
+      "mlp_w32": 4,
+      "mlp_w64_d30": 10,
+      "mlp_w64": 1
+    },
+    "xgboost": {
+      "xgb_d2_n500": 1,
+      "xgb_d2_n200": 12,
+      "xgb_d4_n200": 2
+    }
+  },
+  "scope": "Integrity checks; not an independent replication or estimate of retraining uncertainty."
+}
