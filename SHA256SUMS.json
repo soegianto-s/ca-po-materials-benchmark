@@ -1,6 +1,6 @@
 {
   ".gitignore": "fb9f8f1aa91797faf477ed9d5ea9c57a6085e9b32eedc133b8f05afbaa8d722b",
-  "README.md": "e1a743f86fb1d3bfb85d170faa9f8a6c603b8b2163e7b98e1b49071394acfc27",
+  "README.md": "75c21e944f02128a134476ffd9b49e268233ca1a16157add3c3226b635edd770",
   "requirements.txt": "bd790c4ec2e0994709833d5640970f472818033ffd433988bff90e0c806d0670",
   "revision_ieee_access/capacity_control_v1/PROTOKOL.md": "687d4c141e1bee643f7556c19f1f5dcc92cc7ed0ce70e915d73f9ed25c3e05de",
   "revision_ieee_access/capacity_control_v1/experiment.json": "e6c6919699508eebc30deae1e43a81acebc78ba2937bbbdb593163ac1b9ac7d4",
@@ -97,5 +97,6 @@
   "scripts/test_periodic_graph_v3.py": "7ca21ae9bc98669fa1134df1fe9602b0f1fe358897dec18772d306128387ec36",
   "scripts/test_physics_hybrid_experiment.py": "eeda4869387f4fb71b00e68750801e3b9c032d7cd2885582c6c86c2dcd0c2943",
   "scripts/test_reviewer_extension.py": "cf002a18c73fe90ef588ea0425f752ecc2ccf3dadbd3f084e79bf3ddc5aafb00",
-  "scripts/train_periodic_benchmark.py": "21a2e0ed74fdba61fbe327d1f6b2a37bb4ff51734392294ad3df3a07d4b11048"
+  "scripts/train_periodic_benchmark.py": "21a2e0ed74fdba61fbe327d1f6b2a37bb4ff51734392294ad3df3a07d4b11048",
+  "LICENSE": "e8921d01b8d14ba16a1fb3090624f2e5aa4ac71462650c1652b2af6cc98c97a1"
 }
